@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    padding:5px;
+
+}
+
 html{
     font-family: futura;
     background-color: #fcf3e8
@@ -5,19 +11,31 @@ html{
 
 nav {
     display: flex; 
-    height: 10px;
+    height: 40px;
     background-color:#b2d9ea;
     align-items: center;
     justify-content: flex-end;
-    padding: 10px;
+    padding: 10px 10px;
    
  }
 
  a{
     text-decoration: none;
     color: black;
-    text-indent: 5px;
+    text-indent: 10px;
  }
+
+ .art{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    box-shadow: 2rem 2rem 0 0 #f77e;
+    position: absolute;
+    left: -50px;
+    top: -50px;
+    opacity: 0.7;
+     
+  }
 
 .hobbies{
     display: flex;
@@ -34,5 +52,8 @@ margin-top: 20px;
 background: #b2d9ea;
 
 
+}
 
+.film-img{
+overflow-wrap:normal:
 }
