@@ -25,6 +25,11 @@ nav {
     text-indent: 10px;
  }
 
+ h2{
+    font-size: 20px;
+    margin-top: 1px;
+ }
+
  .art{
     width: 15rem;
     height: 15rem;
@@ -33,7 +38,7 @@ nav {
     position: absolute;
     left: -50px;
     top: -50px;
-    opacity: 0.7;
+    opacity: 0.5;
      
   }
 
@@ -48,8 +53,8 @@ nav {
 .section{
 border: 3px solid salmon;
 border-radius: 10px;
-margin-top: 20px;
-background: #b2d9ea;
+margin-top: 10px;
+background: #d2d8e8;
 
 
 }

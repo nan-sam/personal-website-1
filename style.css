@@ -35,31 +35,43 @@ a{
 }
 
 h3{
-  position: relative;
-  top: 100px;
-  font-size: 20px;
-  text-wrap: balance
+
+  
+  font-size: 30px;
+  
+
+
    
 }
 
-.art{
+.wrap{
+    float: right;
+    border-radius: 10px;
+    border: 3px solid #b2d9ea;
+    padding: 5px;
+  
+
+}
+
+.intro{
+    font-size: 25px;
+}
+
+.moon{
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
-    box-shadow: 2rem 2rem 0 0 #f77e;
+    box-shadow: 2rem 2rem 0 0 seagreen;
+    opacity: 25%;
     position: absolute;
     left: 1050px;
-    bottom:40px
-    
-     
+    bottom:-180px
+      
   }
 
-
-.image{
-    border: 3px solid #b2d9ea;
-    border-radius: 10px;
-    float: right;
-    margin-top: -200px;
-    padding: 10px;
+form{
+    display: flex;
+    height: 50px;
+    margin-top: 260px;
    
 }
