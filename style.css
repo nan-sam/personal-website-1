@@ -25,7 +25,7 @@ h1{
     font-family: futura;
 }
 
-a{
+a:hover{
     text-decoration: none;
     font-size: 20px;
     color: black;
@@ -35,12 +35,8 @@ a{
 }
 
 h3{
-
   
   font-size: 30px;
-  
-
-
    
 }
 
@@ -55,6 +51,17 @@ h3{
 
 .intro{
     font-size: 25px;
+
+}
+
+.contact{
+    display: flex;
+    border: 3px solid peru;
+    border-radius: 10px;
+    padding: 5px 5px;
+    margin-top: 175px;
+    height: 40px
+      
 }
 
 .moon{
@@ -64,14 +71,8 @@ h3{
     box-shadow: 2rem 2rem 0 0 seagreen;
     opacity: 25%;
     position: absolute;
-    left: 1050px;
-    bottom:-180px
+    left: 1000px;
+    bottom:-100px
       
   }
 
-form{
-    display: flex;
-    height: 50px;
-    margin-top: 260px;
-   
-}
